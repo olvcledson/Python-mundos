@@ -1,0 +1,5 @@
+n = input('Digite algo: ')
+print('É alfanumerico? ', n.isalnum())
+print('Apenas alfabetico? ', n.isalpha())
+print('Apenas númerico? ', n.isnumeric())
+print('Apenas maiúcula? ', n.isupper())
